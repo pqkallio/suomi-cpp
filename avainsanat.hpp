@@ -10,10 +10,14 @@
 #define jatka continue
 #define katkaise break
 #define mene_kohtaan goto
+#define vaihtoehto switch
+#define tapaus case
+#define muulloin default
 
 #define kokonaisluku int
 #define liukuluku double
 #define palauta return
+#define merkki char
 #define merkkijono std::string
 #define totuusarvo bool
 #define tosi true

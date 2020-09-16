@@ -38,6 +38,10 @@ void tyhjenna() {
   std::system("clear");
 }
 
+void rivinvaihto() {
+  std::cout << std::endl << std::flush;
+}
+
 class Tulostin {
 private:
   int vari;
@@ -79,10 +83,6 @@ public:
     this->valiaikainenTaustaVari = 0;
 
     std::cout << "\033[" << vari << ";" << taustavari << "m" << x;
-  }
-
-  void rivinvaihto() {
-    std::cout << std::endl << std::flush;
   }
 };
 
