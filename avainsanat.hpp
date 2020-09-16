@@ -7,6 +7,9 @@
 #define tai_jos else if
 #define muuten else
 #define kun while
+#define jatka continue
+#define katkaise break
+#define mene_kohtaan goto
 
 #define kokonaisluku int
 #define liukuluku double
