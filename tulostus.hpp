@@ -75,7 +75,7 @@ public:
     return this;
   }
 
-  void tulosta(auto x) {
+  Tulostin* tulosta(auto x) {
     int vari = this->valiaikainenVari ? this->valiaikainenVari : this->vari;
     int taustavari = this->valiaikainenTaustaVari ? this->valiaikainenTaustaVari : this->taustavari;
 
@@ -83,6 +83,8 @@ public:
     this->valiaikainenTaustaVari = 0;
 
     std::cout << "\033[" << vari << ";" << taustavari << "m" << x;
+
+    return this;
   }
 };
 

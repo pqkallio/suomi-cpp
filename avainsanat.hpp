@@ -13,6 +13,10 @@
 #define vaihtoehto switch
 #define tapaus case
 #define muulloin default
+#define uusi_nimi typedef
+#define rakenne struct
+#define uusi new
+#define poista delete
 
 #define kokonaisluku int
 #define liukuluku double
