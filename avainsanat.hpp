@@ -21,6 +21,7 @@
 #define kokonaisluku int
 #define liukuluku double
 #define palauta return
+#define palaa return
 #define merkki char
 #define merkkijono std::string
 #define totuusarvo bool
