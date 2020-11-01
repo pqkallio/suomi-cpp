@@ -1,0 +1,14 @@
+pre{
+  counter-reset: line;
+}
+
+pre>code{
+  counter-increment: line;
+}
+
+pre>code:before{
+  color: darkgrey;
+  content: counter(line);
+  margin-right: 1em;
+  -webkit-user-select: none;
+}

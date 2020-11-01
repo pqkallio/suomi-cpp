@@ -33,6 +33,10 @@
 #define tai ||
 #define on ==
 #define ei_ole !=
+#define on_pienempi_kuin <
+#define on_pienempi_tai_yhta_suuri_kuin <=
+#define on_suurempi_kuin >
+#define on_suurempi_tai_yhta_suuri_kuin >=
 
 #define paaohjelma main
 
